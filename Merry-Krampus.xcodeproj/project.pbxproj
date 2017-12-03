@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E318BCF1FD2FE10001CE566 /* Merry Krampus StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E318BCE1FD2FE10001CE566 /* Merry Krampus StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E318BCF1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E318BCE1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7E318BD31FD2FE10001CE566 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 7E318BD21FD2FE10001CE566 /* Stickers.xcstickers */; };
 		7E318BD41FD2FE10001CE566 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 7E318BD21FD2FE10001CE566 /* Stickers.xcstickers */; };
+		7E318BDF1FD37BA7001CE566 /* Licenes-Merry-Krampus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E318BDE1FD37BA7001CE566 /* Licenes-Merry-Krampus.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7E318BCF1FD2FE10001CE566 /* Merry Krampus StickerPackExtension.appex in Embed App Extensions */,
+				7E318BCF1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,9 +38,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7E318BCA1FD2FE0F001CE566 /* Merry Krampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merry Krampus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E318BCE1FD2FE10001CE566 /* Merry Krampus StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Merry Krampus StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E318BCA1FD2FE0F001CE566 /* Merry-Krampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merry-Krampus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E318BCE1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Merry-Krampus StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E318BD21FD2FE10001CE566 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Merry Krampus StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		7E318BDE1FD37BA7001CE566 /* Licenes-Merry-Krampus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Licenes-Merry-Krampus.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				7E318BD21FD2FE10001CE566 /* Stickers.xcstickers */,
+				7E318BDE1FD37BA7001CE566 /* Licenes-Merry-Krampus.txt */,
 				7E318BCB1FD2FE0F001CE566 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,8 +57,8 @@
 		7E318BCB1FD2FE0F001CE566 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E318BCA1FD2FE0F001CE566 /* Merry Krampus.app */,
-				7E318BCE1FD2FE10001CE566 /* Merry Krampus StickerPackExtension.appex */,
+				7E318BCA1FD2FE0F001CE566 /* Merry-Krampus.app */,
+				7E318BCE1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E318BC91FD2FE0F001CE566 /* Merry Krampus */ = {
+		7E318BC91FD2FE0F001CE566 /* Merry-Krampus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E318BDB1FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry Krampus" */;
+			buildConfigurationList = 7E318BDB1FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry-Krampus" */;
 			buildPhases = (
 				7E318BC81FD2FE0F001CE566 /* Resources */,
 				7E318BDA1FD2FE10001CE566 /* Embed App Extensions */,
@@ -75,14 +78,14 @@
 			dependencies = (
 				7E318BD11FD2FE10001CE566 /* PBXTargetDependency */,
 			);
-			name = "Merry Krampus";
+			name = "Merry-Krampus";
 			productName = "Merry Krampus";
-			productReference = 7E318BCA1FD2FE0F001CE566 /* Merry Krampus.app */;
+			productReference = 7E318BCA1FD2FE0F001CE566 /* Merry-Krampus.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		7E318BCD1FD2FE10001CE566 /* Merry Krampus StickerPackExtension */ = {
+		7E318BCD1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E318BD71FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry Krampus StickerPackExtension" */;
+			buildConfigurationList = 7E318BD71FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry-Krampus StickerPackExtension" */;
 			buildPhases = (
 				7E318BCC1FD2FE10001CE566 /* Resources */,
 			);
@@ -90,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Merry Krampus StickerPackExtension";
+			name = "Merry-Krampus StickerPackExtension";
 			productName = "Merry Krampus StickerPackExtension";
-			productReference = 7E318BCE1FD2FE10001CE566 /* Merry Krampus StickerPackExtension.appex */;
+			productReference = 7E318BCE1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E318BC71FD2FE0F001CE566 /* Build configuration list for PBXProject "Merry Krampus" */;
+			buildConfigurationList = 7E318BC71FD2FE0F001CE566 /* Build configuration list for PBXProject "Merry-Krampus" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,8 +129,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E318BC91FD2FE0F001CE566 /* Merry Krampus */,
-				7E318BCD1FD2FE10001CE566 /* Merry Krampus StickerPackExtension */,
+				7E318BC91FD2FE0F001CE566 /* Merry-Krampus */,
+				7E318BCD1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E318BDF1FD37BA7001CE566 /* Licenes-Merry-Krampus.txt in Resources */,
 				7E318BD41FD2FE10001CE566 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +158,7 @@
 /* Begin PBXTargetDependency section */
 		7E318BD11FD2FE10001CE566 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E318BCD1FD2FE10001CE566 /* Merry Krampus StickerPackExtension */;
+			target = 7E318BCD1FD2FE10001CE566 /* Merry-Krampus StickerPackExtension */;
 			targetProxy = 7E318BD01FD2FE10001CE566 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -321,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E318BC71FD2FE0F001CE566 /* Build configuration list for PBXProject "Merry Krampus" */ = {
+		7E318BC71FD2FE0F001CE566 /* Build configuration list for PBXProject "Merry-Krampus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E318BD51FD2FE10001CE566 /* Debug */,
@@ -330,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E318BD71FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry Krampus StickerPackExtension" */ = {
+		7E318BD71FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry-Krampus StickerPackExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E318BD81FD2FE10001CE566 /* Debug */,
@@ -339,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E318BDB1FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry Krampus" */ = {
+		7E318BDB1FD2FE10001CE566 /* Build configuration list for PBXNativeTarget "Merry-Krampus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E318BDC1FD2FE10001CE566 /* Debug */,
