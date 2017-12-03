@@ -1,4 +1,33 @@
 {
+  "stickers" : [
+    {
+      "filename" : "dec5th.sticker"
+    },
+    {
+      "filename" : "december5.sticker"
+    },
+    {
+      "filename" : "MKfull4.sticker"
+    },
+    {
+      "filename" : "nnfull.sticker"
+    },
+    {
+      "filename" : "grussvom.sticker"
+    },
+    {
+      "filename" : "MK2.sticker"
+    },
+    {
+      "filename" : "mk3full.sticker"
+    },
+    {
+      "filename" : "mkfull1.sticker"
+    },
+    {
+      "filename" : "mkfull2.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
